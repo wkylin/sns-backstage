@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.top_title { padding-top:10px; height:50px; padding-left:10px; border-bottom:1px #aaaaaa solid; }
+.table_content { height:150px; border-bottom:1px #aaaaaa solid; padding-left:10px; }
+.table_content .choose { padding-left:43px; padding-top:20px; }
+.table_content .choose ul.cpt { height:20px; }
+.table_content .choose ul.cpt li { float:left; width:80px; line-height:20px; }
+.table_content .time_q { padding-left:40px; padding-top:20px; }
+.table_content .time_q ul.tpt { height:20px; }
+.table_content .time_q ul.tpt li.dd { text-align:right; width:65px; margin-right:17px; float:left; }
+.table_content .time_q ul.tpt li { float:left; width:110px; line-height:20px; }
+.table_content .time_q ul.tpt li.fx { float:left; width:40px; height:35px; margin-top:-4px; _margin-top:-2px; cursor:pointer; }
+/*输入框样式*/
+.text { width:80px; color:#5f7389 }
+/*提交按钮*/
+
+.table_content .btn { padding-top:20px; padding-left:122px; }
+.table_content .btn a.sentbtn { display:block; width:57px; height:25px; background:url(../images/sentbtn.gif) no-repeat 0 0; }
+.table_content .btn a.sentbtn:hover { display:block; width:57px; height:26px; background:url(../images/sentbtn.gif) no-repeat 0 -26px; }
+/*表格数据列表*/
+ .data { width:80%; padding-bottom:20px; }
+.data p { padding-top:25px; padding-left:45px; }
+.data table { margin-top:20px; }
+.data table td { border:1px solid #788290; text-align:center; line-height:30px; height:30px; text-align:center; font-size:14px; }
+.data table th { line-height:30px; background:#b0bdcf; height:30px; border:1px solid #788290; text-align:center; font-size:14px; font-weight:bold; }

@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>系统设置--管理员</title>
+<link rel="stylesheet" type="text/css" href="../css/layout.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../css/common.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../css/sysset_cms.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../css/backstage_dialog.css" media="all"/>
+<script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="../js/acc_sidebar.js"></script>
+<script type="text/javascript" src="../js/jquery.blockUI.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#manager_submit").click(function(){
+		$.blockUI( {message: $('.submit_success')});
+		$('.popupContactClose,.btnbox').click($.unblockUI);	
+		});
+	$("#delete_success").click(function(){
+		$.blockUI( {message: $('.delete_success')});
+		$('.popupContactClose,.btnbox').click($.unblockUI);	
+		});	  
+		   
+});
+</script>
+</head>
+<body>
+<div class="header">
+	<div class="sns_sign">
+		<p>后台LOGO</p>
+	</div>
+	<div class="main_nav">
+		<ul class="main_nav_ul">
+			<li class="sns_manager">管理员：</li>
+			<li class="manager_name">暮云春树夏雪</li>
+			<li class="sns_m_grade">级别：</li>
+			<li class="manager_grade">超级管理员</li>
+			<li class="backstage_home"><a href="index.html">后台首页</a></li>
+			<li class="backstage_exit"><a href="login.html">退出</a></li>
+		</ul>
+	</div>
+	<div class="subnav_tips">
+		<div>目前位置：&gt;&nbsp;<span>系统设置</span>&nbsp;&gt;&nbsp;<span>词语过滤</span></div>
+	</div>
+</div>
+<div class="container clearfix">
+	<div class="mainBox">
+		<div class="content">
+			<div class="top_title">
+				<p><img src="../images/com.gif"  alt="" width="46" height="38" /><span class="font_14 font_b">您可以添加新管理员，删除和修改其他管理员信息</span></p>
+			</div>
+			<form action="#" id="" name="">
+				<div class="systemset_style" >
+					<ul>
+						<li>
+							<label>添加管理员&nbsp;&nbsp;</label>
+						</li>
+						<li>
+							<label><em>管理员名称：</em></label>
+							<input type="text" name="" id="" />
+						</li>
+						<li>
+							<label><em>登录密码：</em></label>
+							<input type="password" name="" id="" />
+						</li>
+						<li>
+							<label><em>管理级别：</em></label>
+							<select class="manager_grade_choice" name="" id="">
+								<option selected="selected">超级管理员</option>
+								<option>管理员</option>
+								<option>客服</option>
+							</select>
+							<a href="sysset_popedom.html" class="add_manager_grade"> 新增级别</a> </li>
+						<li>
+							<label for="" >&nbsp;</label>
+							<a href="#" class="website_submit" id="manager_submit">提 交</a> </li>
+					</ul>
+				</div>
+			</form>
+			<form action="#" id="" name="">
+				<div class="systemset_style" >
+					<ul class="border_top">
+						<li>
+							<label>修改管理员信息</label>
+						</li>
+						<li class="margin_left">
+							<label class="label_width"><em>管理员名称：</em></label>
+							<input type="text" name="" id="" class="input_width"/>
+							<label class="label_width"><em>登录密码：</em></label>
+							<input type="password" name="" id="" class="input_width"/>
+							<label class="label_width"><em>管理级别：</em></label>
+							<select class="mangrade_choice" name="" id="">
+								<option selected="selected">超级管理员</option>
+								<option>管理员</option>
+								<option>客服</option>
+							</select>
+							<a href="#" class="save_info"> 保存信息</a><a href="#" class="delete_btn" id="delete_success">删除</a></li>
+						<li class="margin_left">
+							<label class="label_width"><em>管理员名称：</em></label>
+							<input type="text" name="" id="" class="input_width"/>
+							<label class="label_width"><em>登录密码：</em></label>
+							<input type="password" name="" id="" class="input_width"/>
+							<label class="label_width"><em>管理级别：</em></label>
+							<select class="mangrade_choice" name="" id="">
+								<option selected="selected">超级管理员</option>
+								<option>管理员</option>
+								<option>客服</option>
+							</select>
+							<a href="#" class="save_info"> 保存信息</a><a href="#" class="delete_btn">删除</a></li>
+						<li class="margin_left">
+							<label class="label_width"><em>管理员名称：</em></label>
+							<input type="text" name="" id="" class="input_width"/>
+							<label class="label_width"><em>登录密码：</em></label>
+							<input type="password" name="" id="" class="input_width"/>
+							<label class="label_width"><em>管理级别：</em></label>
+							<select class="mangrade_choice" name="" id="">
+								<option selected="selected">超级管理员</option>
+								<option>管理员</option>
+								<option>客服</option>
+							</select>
+							<a href="#" class="save_info"> 保存信息</a><a href="#" class="delete_btn">删除</a></li>
+						<li class="margin_left">
+							<label class="label_width"><em>管理员名称：</em></label>
+							<input type="text" name="" id="" class="input_width"/>
+							<label class="label_width"><em>登录密码：</em></label>
+							<input type="password" name="" id="" class="input_width"/>
+							<label class="label_width"><em>管理级别：</em></label>
+							<select class="mangrade_choice" name="" id="">
+								<option selected="selected">超级管理员</option>
+								<option>管理员</option>
+								<option>客服</option>
+							</select>
+							<a href="#" class="save_info"> 保存信息</a><a href="#" class="delete_btn">删除</a></li>
+					</ul>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="sideBox">
+		<h2 ><a href="#" class="system_set">系统设置</a></h2>
+		<div class="acc_subnav">
+			<ul>
+				<li><a href="sysset_website.html" class="acc_subnav_current">站点信息</a></li>
+				<li><a href="sysset_wordfiltered.html" class="acc_subnav_link">词语过滤</a></li>
+				<li><a href="sysset_managers.html" class="acc_subnav_link">管理员</a></li>
+				<li><a href="sysset_popedom.html"  class="acc_subnav_link">后台权限</a></li>
+			</ul>
+		</div>
+		<h2 ><a href="#" class="content_manage">内容管理</a></h2>
+		<div class="acc_subnav">
+			<ul>
+				<li><a href="cms_blog.html" class="acc_subnav_link">微博</a></li>
+				<li><a href="cms_images.html" class="acc_subnav_link">图片</a></li>
+				<li><a href="cms_email.html" class="acc_subnav_link">信件</a></li>
+			</ul>
+		</div>
+		<h2><a href="#" class="inbusiness_tool">运营工具</a></h2>
+		<div class="acc_subnav">
+			<ul>
+				<li><a href="market_emuser.html" class="acc_subnav_link">站内信群发</a></li>
+				<li><a href="market_euser.html" class="acc_subnav_link">邮件群发</a></li>
+				<li><a href="market_suser.html" class="acc_subnav_link">推荐用户</a></li>
+				<li><a href="market_ruser.html" class="acc_subnav_link">屏蔽用户</a></li>
+			</ul>
+		</div>
+		<h2><a href="#" class="data_analyse">数据分析</a></h2>
+		<div class="acc_subnav">
+			<ul>
+				<li><a href="data_numbers.html" class="acc_subnav_link">平台人数</a></li>
+				<li><a href="data_blog.html" class="acc_subnav_link">微博产量</a></li>
+				<li><a href="data_friend.html" class="acc_subnav_link">好友产量</a></li>
+				<li><a href="data_prove.html" class="acc_subnav_link">认证数量</a></li>
+				<li><a href="data_people.html" class="acc_subnav_link">邀请记录</a></li>
+				<li><a href="data_record.html" class="acc_subnav_link">搜索记录</a></li>
+				<li><a href="data_letter.html" class="acc_subnav_link">站内信产量</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 提交成功弹出层 begin-->
+	<div class="submit_success" style="display:none;">
+		<div id="d_waptop" class="clearfix" >
+			<div class="d_wtop_left"></div>
+			<div class="d_wtop_middle">
+				<p class="font_12 white">系统提示</p>
+				<div class="popupContactClose"> X </div>
+			</div>
+			<div class="d_wtop_right"></div>
+		</div>
+		<div id="d_wapmiddle" class="clearfix">
+			<div class="d_wmiddle_left"> </div>
+			<div class="d_wmiddle_middle">
+				<div  class="popup_content">
+					<div class="delete_dialog">
+						<p>提交成功!</p>
+						<div class="btnbox"> <a class="qbtn" href="#"></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="d_wmiddle_right"></div>
+		</div>
+		<div id="d_wapbottom" >
+			<div class="d_wbottom_left"> </div>
+			<div class="d_wbottom_middle"> </div>
+			<div class="d_wbottom_right"> </div>
+		</div>
+	</div>
+	<!-- 提交成功弹出层 end-->
+	<!-- 删除成功弹出层 begin-->
+	<div class="delete_success"  style="display:none;">
+		<div id="d_waptop" class="clearfix" >
+			<div class="d_wtop_left"></div>
+			<div class="d_wtop_middle">
+				<p class="font_12 white">系统提示</p>
+				<div class="popupContactClose"> X </div>
+			</div>
+			<div class="d_wtop_right"></div>
+		</div>
+		<div id="d_wapmiddle" class="clearfix">
+			<div class="d_wmiddle_left"> </div>
+			<div class="d_wmiddle_middle">
+				<div  class="popup_content">
+					<div class="delete_dialog">
+						<p>确认是否删除!</p>
+						<div class="btnbox" style=" width:134px;"> <a class="qbtn" href="#"></a> <a class="cbtn" href="#"></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="d_wmiddle_right"></div>
+		</div>
+		<div id="d_wapbottom" >
+			<div class="d_wbottom_left"> </div>
+			<div class="d_wbottom_middle"> </div>
+			<div class="d_wbottom_right"> </div>
+		</div>
+	</div>
+	<!-- 删除成功弹出层 end-->
+</div>
+</body>
+</html>

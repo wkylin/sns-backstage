@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/********************************
+ * author: wkylin 
+ * time:  2010-10-               
+ * link:  270917337@qq.com
+ * info:  login css  --snsbackstage
+ *******************************/
+ body { background:#3f4b57; }
+#login_box[id] { text-align:center; width:100%; height:100%; display:table; }
+#login_info[id] { display:table-cell; vertical-align:middle; }
+*html #login_box { position:absolute; top:50%; width:100%; text-align:center; display:block; height:auto }
+*html #login_info { position:relative; top:-50%; text-align:center; }
+*+html #login_box[id] { position:absolute; top:50%; width:100%; text-align:center; display:block; height:auto }
+*+html #login_info[id] { position:relative; top:-50%; text-align:center; }
+#sns_login { margin:auto; width:695px; height:268px; background:url(../images/sns_login_bg.gif) top left no-repeat; }
+#login_logo{float:left; text-indent:-9999em;}
+#login_form{float:right; margin-top:29px; width:290px; text-align:left; -margin-top:27px;}
+#login_form ul li{height:28px; line-height:28px;}
+input{height:23px; line-height:23px;width:182px; border:0 none; background:none; padding:2px; display:block; font-size:14px; }
+input.identify_iput{width:88px;float:left;}
+.sns_managers,.indentfy_code,.password{ text-indent:-9999em;}
+.identify_code_img{margin-left:15px; display:block; float:left;margin-top:1px;*margin-top:0;-margin-top:1px; }
+li.login_li{margin:20px 0 0 75px;}
+a.sns_login{background:url(../images/loginbtn.gif) no-repeat top left; width:53px; height:21px; text-indent:-9999em; display:block;}
+.error_tips{color:#C03; font:Arial, Helvetica, sans-serif;}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+/********************************
+ * author: pray and wkylin 
+ * time:  2010-08-02            
+ * link:  106475073@qq.com
+ * info:  newwap.css
+ * testroot: ietester firefox
+ *******************************/
+/*头部*/
+.d_wtop_left, .d_wtop_middle, .d_wtop_right { height:33px; float:left; }
+.d_wtop_left, .d_wtop_right, .d_wmiddle_left, .d_wmiddle_right, .d_wbottom_left, .d_wbottom_right { width:13px; float:left; }
+.d_wtop_left { background:url(../images/popup_wap_bg.gif) 0 0 no-repeat; }
+.d_wtop_middle { background:url(../images/wtop_middle.gif) 0 0 repeat-x; line-height:40px; overflow:hidden; position:relative; width:300px; }
+.d_wtop_right { background:url(../images/popup_wap_bg.gif) -28px 0 no-repeat; }
+/*中间部分*/
+.d_wmiddle_left { background: #eee url(../images/wmiddle_left.gif) 0 0 repeat-y; height:100px; }
+.d_wmiddle_middle { float:left; height:100px; }
+.d_wmiddle_right { background:url(../images/wmiddle_right.gif) 0 0 repeat-y; height:100px; }
+/*底部*/
+.d_wbottom_left, .d_wbottom_middle, .d_wbottom_right { height:13px; float:left; }
+.d_wbottom_left { background:url(../images/popup_wap_bg.gif) 0 -39px no-repeat; }
+.d_wbottom_middle { background:url(../images/wbottom_middle.gif) 0 0 repeat-x; width:300px; }
+.d_wbottom_right { background:url(../images/popup_wap_bg.gif) -28px -39px no-repeat; }
+/**************************************************************************/
+.delete_dialog { width:300px; height:100px; background:#FFF; text-align:center; }
+.delete_dialog p { /*line-height:30px;*/ font-size:16px; padding-top:20px; }
+.ta { width:500px; text-align:center; }
+.ta p { font-size:24px; color:#00FF00; line-height:200px; font-weight:bold; }
+/*按钮*/
+
+
+.btnbox { height:40px; margin:0 auto; width:67px; padding-top:20px; }
+/*确认按钮*/
+.btnbox a.qbtn { width:67px; height:29px; display:block; background:url(../images/fgroup_submit2.gif) 0 0 no-repeat; float:left; }
+.btnbox a.qbtn:hover { width:67px; height:29px; display:block; background:url(../images/fgroup_submit2.gif) no-repeat 0 -29px; }
+/*取消按钮*/
+.btnbox a.cbtn { width:65px; height:29px; display:block; background:url(../images/cancel.gif) 0 0 no-repeat; float:left; }
+.btnbox a.cbtn:hover { width:65px; height:29px; display:block; background:url(../images/cancel.gif) 0 -28px no-repeat; }
+/* 锁定层 */
+#backgroundPopup { display:none; position:fixed; _position:absolute; /* hack for internet explorer 6*/ height:100%; width:100%; top:0; left:0; background:#000; z-index:9998; }
+/* 关闭按钮 */
+.popupContactClose { font-size:14px; right:5px; width:14px; height:14px; top:0px; position:absolute; color:#fff; text-align:right; display:block; cursor:pointer; }
