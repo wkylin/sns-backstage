@@ -5,17 +5,16 @@
 // link:  270917337@qq.com
 // info:  acc_sidebar.js
 
+$(document).ready(function () {
 
-$(document).ready(function(){
-
-    if ($.browser.version == 6.0) {//½â¾öie6×î¿í¶ÈÎÊÌâ
+    if ($.browser.version == 6.0) {
         ie6width();
     }
-    autoHeight();//×óÓÒ·ÖÀ¸¸ß¶È±£³ÖÒ»ÖÂ
-    //×ó²àµ¼º½²Ëµ¥
+    autoHeight();
+    //ï¿½ï¿½àµ¼ï¿½ï¿½ï¿½Ëµï¿½
     $(".acc_subnav").hide();
     $(".acc_subnav:first").show();
-    $("h2").click(function(){
+    $("h2").click(function () {
         if ($(this).next().is(":hidden")) {
             $("h2").removeClass("active").next().slideUp();
             $(this).toggleClass("active").next().slideDown();
@@ -23,41 +22,38 @@ $(document).ready(function(){
         }
         return false;
     });
-    
-    
-    //½â¾öie6ºÍie7µÄz-indexÎÊÌâ
+
+    //ï¿½ï¿½ï¿½ie6ï¿½ï¿½ie7ï¿½ï¿½z-indexï¿½ï¿½ï¿½ï¿½
     var sns_search = $(".sns_search li");
-    sns_search.each(function(index){
+    sns_search.each(function (index) {
         $(this).css({
             "z-index": sns_search.length - index
         })
     });
-    
-    
+
 });
 
-//×óÓÒ·ÖÀ¸¸ß¶È±£³ÖÒ»ÖÂ
-function autoHeight(){
+//ï¿½ï¿½ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ß¶È±ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
+function autoHeight() {
     var side_bar_h = $(".sideBox").height();
     var content_h = $(".content").height();
     if (side_bar_h > content_h) {
         $(".content,.sideBox").height(side_bar_h);
-        
-    }
-    else {
+
+    } else {
         $(".content,.sideBox").height(content_h);
     }
 }
 
-//½â¾öie6×î¿í¶ÈÎÊÌâ
-function ie6width(){
+//ï¿½ï¿½ï¿½ie6ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+function ie6width() {
     if ($.browser.msie && $.browser.version == 6.0) {
-        $(window).resize(function bodySize(){
-        
+        $(window).resize(function bodySize() {
+
             var bWidth = ($(window).width() <= 1003) ? 1003 : "100%";
             $("body").width(bWidth);
         });
         bodySize();
     }
-    
+
 }

@@ -6,34 +6,166 @@
  * info:  layout css
  *******************************/
 /* 整体结构样式 begin*/
-.header { height:148px; color:#fff; background:url(../images/header_bg.gif); min-width:1003px; position:relative; }
-.container { text-align:left; color:#fff; min-width:1003px;}
-.container:after { clear:both; display:block; visibility:hidden; height:0; line-height:0; content:""; }
-.mainBox { float:left; width:100%; }
-.mainBox .content { margin:0 0 0 182px; background-color:#e6e6e6; color:#000; padding-left:12px;}
-.sideBox { float:left; width:182px; margin-left:-100%;position:relative; background-color:#21313d;}
+.header {
+    height: 148px;
+    color: #fff;
+    background: url(../images/header_bg.gif);
+    min-width: 1003px;
+    position: relative;
+}
+
+.container {
+    text-align: left;
+    color: #fff;
+    min-width: 1003px;
+}
+
+.container:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    content: "";
+}
+
+.mainBox {
+    float: left;
+    width: 100%;
+}
+
+.mainBox .content {
+    margin: 0 0 0 182px;
+    background-color: #e6e6e6;
+    color: #000;
+    padding-left: 12px;
+}
+
+.sideBox {
+    float: left;
+    width: 182px;
+    margin-left: -100%;
+    position: relative;
+    background-color: #21313d;
+}
+
 /* 整体结构样式 end*/
 /* 头部样式 */
-.sns_sign { background:url(../images/sns_sign_bg.gif) no-repeat top left; width:502px; height:110px; text-indent:-9999em; }
-.main_nav { background:url(../images/main_nav_bg2.gif) no-repeat top left; width:470px; height:110px; position:absolute; top:0; right:0; }
-ul.main_nav_ul { margin:60px 0 0 40px; }
-ul.main_nav_ul li { float:left; margin-right:5px; text-align:center; }
-li.manager_name, li.manager_grade { width:100px; height:30px; font-weight:bold; }
-li.backstage_home,li.backstage_exit,li.backstage_exit a,li.backstage_home a { height:30px;display:block;}
-li.backstage_home,li.backstage_home a{ width:80px;}
-li.backstage_exit,li.backstage_exit a  { width:30px;}
-li.backstage_home a,li.backstage_exit a { text-indent:-9999em; }
-li.sns_manager, li.sns_m_grade { width:40px; text-indent:-9999em; }
-.subnav_tips { height:36px; line-height:36px; background:url(../images/bdo_welcome.gif) no-repeat top left; width:317px; height:35px; padding-left:317px; }
+.sns_sign {
+    background: url(../images/sns_sign_bg.gif) no-repeat top left;
+    width: 502px;
+    height: 110px;
+    text-indent: -9999em;
+}
+
+.main_nav {
+    background: url(../images/main_nav_bg2.gif) no-repeat top left;
+    width: 470px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul.main_nav_ul {
+    margin: 60px 0 0 40px;
+}
+
+ul.main_nav_ul li {
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+}
+
+li.manager_name, li.manager_grade {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+li.backstage_home, li.backstage_exit, li.backstage_exit a, li.backstage_home a {
+    height: 30px;
+    display: block;
+}
+
+li.backstage_home, li.backstage_home a {
+    width: 80px;
+}
+
+li.backstage_exit, li.backstage_exit a {
+    width: 30px;
+}
+
+li.backstage_home a, li.backstage_exit a {
+    text-indent: -9999em;
+}
+
+li.sns_manager, li.sns_m_grade {
+    width: 40px;
+    text-indent: -9999em;
+}
+
+.subnav_tips {
+    height: 36px;
+    line-height: 36px;
+    background: url(../images/bdo_welcome.gif) no-repeat top left;
+    width: 317px;
+    height: 35px;
+    padding-left: 317px;
+}
+
 /* 侧边栏内容样式 */
-a.system_set, a.content_manage, a.inbusiness_tool, a.data_analyse { display:block; width:179px; height:37px; text-indent:-9999em; }
-a.system_set { background:url(../images/sidebar_menu_bg.gif) no-repeat 0 0; }
-a.content_manage { background:url(../images/sidebar_menu_bg.gif) no-repeat 0 -37px; }
-a.inbusiness_tool { background:url(../images/sidebar_menu_bg.gif) no-repeat 0 -74px; }
-a.data_analyse { background:url(../images/sidebar_menu_bg.gif) no-repeat 0 -111px; }
-.acc_subnav { margin:0 auto; padding:0;}
-.acc_subnav ul li { height:28px; line-height:28px; text-align:center; }
-.acc_subnav ul li a.acc_subnav_link,a.acc_subnav_link:hover, a.acc_subnav_current { display:block; width:179px; height:28px;font-size:13px; }
-.acc_subnav ul li a.acc_subnav_link {background:url(../images/acc_subnav_a.gif) no-repeat 0 0; color:#fff;}
-.acc_subnav ul li a.acc_subnav_link:hover, a.acc_subnav_current {background:url(../images/acc_subnav_a.gif) no-repeat 0 -28px; color:#949ede; }
-a.acc_subnav_current:hover{color:#949ede;}
+a.system_set, a.content_manage, a.inbusiness_tool, a.data_analyse {
+    display: block;
+    width: 179px;
+    height: 37px;
+    text-indent: -9999em;
+}
+
+a.system_set {
+    background: url(../images/sidebar_menu_bg.gif) no-repeat 0 0;
+}
+
+a.content_manage {
+    background: url(../images/sidebar_menu_bg.gif) no-repeat 0 -37px;
+}
+
+a.inbusiness_tool {
+    background: url(../images/sidebar_menu_bg.gif) no-repeat 0 -74px;
+}
+
+a.data_analyse {
+    background: url(../images/sidebar_menu_bg.gif) no-repeat 0 -111px;
+}
+
+.acc_subnav {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.acc_subnav ul li {
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.acc_subnav ul li a.acc_subnav_link, a.acc_subnav_link:hover, a.acc_subnav_current {
+    display: block;
+    width: 179px;
+    height: 28px;
+    font-size: 13px;
+}
+
+.acc_subnav ul li a.acc_subnav_link {
+    background: url(../images/acc_subnav_a.gif) no-repeat 0 0;
+    color: #fff;
+}
+
+.acc_subnav ul li a.acc_subnav_link:hover, a.acc_subnav_current {
+    background: url(../images/acc_subnav_a.gif) no-repeat 0 -28px;
+    color: #949ede;
+}
+
+a.acc_subnav_current:hover {
+    color: #949ede;
+}

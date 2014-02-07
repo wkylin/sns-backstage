@@ -3,49 +3,231 @@
 /*头部*/
 /*右边部分*/
 /*#m_content{ width:100%;float:right;padding-left:10px; _width:99%;}*/
-.top_title{padding-top:10px; height:50px;padding-left:10px; border-bottom:1px #aaaaaa solid;}
-.table_content{ padding-top:20px;border-bottom:1px #aaaaaa solid; padding-left:10px;}
-.table_content p{ line-height:20px; padding-left:43px; font-size:14px; font-weight:bold; padding-top:10px;}
-.table_content .choose{ padding-left:43px; padding-top:20px;}
-.table_content .choose ul.cpt{  height:20px;}
-.table_content .choose ul.cpt li{ float:left; width:80px; line-height:20px;}
-.table_content .choose ul.cpt li.di{ float:left; width:170px; line-height:20px;}
-.table_content .choose ul.cpt li.i_title{ float:left; width:500px; line-height:20px;}
-.table_content .choose ul.input_box{ height:130px;}
-.table_content .choose ul.input_box li{ float:left; width:80px; line-height:20px;}
-.table_content .choose ul.input_box li.input_box{ float:left; width:700px; line-height:20px;}
-.table_content .choose ul.users{ height:50px;}
-.table_content .choose ul.users li.user{ width:800px; padding-left:14px; float:left;}
-.table_content .choose ul.users li.user span{ width:100px;float:left; font-size:14px; height:28px;}
+.top_title {
+    padding-top: 10px;
+    height: 50px;
+    padding-left: 10px;
+    border-bottom: 1px #aaaaaa solid;
+}
+
+.table_content {
+    padding-top: 20px;
+    border-bottom: 1px #aaaaaa solid;
+    padding-left: 10px;
+}
+
+.table_content p {
+    line-height: 20px;
+    padding-left: 43px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.table_content .choose {
+    padding-left: 43px;
+    padding-top: 20px;
+}
+
+.table_content .choose ul.cpt {
+    height: 20px;
+}
+
+.table_content .choose ul.cpt li {
+    float: left;
+    width: 80px;
+    line-height: 20px;
+}
+
+.table_content .choose ul.cpt li.di {
+    float: left;
+    width: 170px;
+    line-height: 20px;
+}
+
+.table_content .choose ul.cpt li.i_title {
+    float: left;
+    width: 500px;
+    line-height: 20px;
+}
+
+.table_content .choose ul.input_box {
+    height: 130px;
+}
+
+.table_content .choose ul.input_box li {
+    float: left;
+    width: 80px;
+    line-height: 20px;
+}
+
+.table_content .choose ul.input_box li.input_box {
+    float: left;
+    width: 700px;
+    line-height: 20px;
+}
+
+.table_content .choose ul.users {
+    height: 50px;
+}
+
+.table_content .choose ul.users li.user {
+    width: 800px;
+    padding-left: 14px;
+    float: left;
+}
+
+.table_content .choose ul.users li.user span {
+    width: 100px;
+    float: left;
+    font-size: 14px;
+    height: 28px;
+}
+
 /*.table_content .choose p{padding-left:45px;}*/
-.table_content .time_q{ padding-left:40px; padding-top:20px;}
-.table_content .time_q ul.tpt{ height:20px;}
+.table_content .time_q {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.table_content .time_q ul.tpt {
+    height: 20px;
+}
+
 /*用户名称*/
-.table_content .time_q ul.tpt li{ float:left; width:78px; line-height:20px; padding-left:2px;}
-.table_content .time_q ul.tpt li.h_word{ float:left; width:280px; line-height:20px; text-align:right; margin-left:20px;}
-.table_content .time_q ul.tpt li.word{ float:left; width:25px; line-height:20px; text-align:center;}
+.table_content .time_q ul.tpt li {
+    float: left;
+    width: 78px;
+    line-height: 20px;
+    padding-left: 2px;
+}
+
+.table_content .time_q ul.tpt li.h_word {
+    float: left;
+    width: 280px;
+    line-height: 20px;
+    text-align: right;
+    margin-left: 20px;
+}
+
+.table_content .time_q ul.tpt li.word {
+    float: left;
+    width: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+
 /*输入框样式*/
-.text{ width:72px; color:#5f7389}
-.text2{ width:150px; color:#5f7389;}
-.text3{ width:500px; color:#5f7389;}
-.text4{ width:700px; height:120px;}
+.text {
+    width: 72px;
+    color: #5f7389
+}
+
+.text2 {
+    width: 150px;
+    color: #5f7389;
+}
+
+.text3 {
+    width: 500px;
+    color: #5f7389;
+}
+
+.text4 {
+    width: 700px;
+    height: 120px;
+}
 
 /*提交按钮*/
-.table_content .btn{ padding-top:20px; padding-left:122px; height:25px; padding-bottom:20px;}
-.table_content .btn a.sentbtn{ display:block; width:100px; height:25px; background:url(../images/sentbtn.gif) no-repeat 0 0; float:left;}
-.table_content .btn a.sentbtn:hover{ display:block; width:100px; height:25px; background:url(../images/sentbtn.gif) no-repeat 0 -26px;}
+.table_content .btn {
+    padding-top: 20px;
+    padding-left: 122px;
+    height: 25px;
+    padding-bottom: 20px;
+}
+
+.table_content .btn a.sentbtn {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background: url(../images/sentbtn.gif) no-repeat 0 0;
+    float: left;
+}
+
+.table_content .btn a.sentbtn:hover {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background: url(../images/sentbtn.gif) no-repeat 0 -26px;
+}
+
 /*搜索按钮*/
-.table_content .btn a.searchbtn{ display:block; width:100px; height:25px; background:url(../images/searchbtn.gif) no-repeat 0 0; float:left;}
-.table_content .btn a.searchbtn:hover{ display:block; width:100px; height:25px; background:url(../images/searchbtn.gif) no-repeat 0 -26px;}
+.table_content .btn a.searchbtn {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background: url(../images/searchbtn.gif) no-repeat 0 0;
+    float: left;
+}
+
+.table_content .btn a.searchbtn:hover {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background: url(../images/searchbtn.gif) no-repeat 0 -26px;
+}
+
 /*全选按钮*/
-.table_content .btn a.chooseallbtn{ display:block; width:100px; height:25px; background:url(../images/chooseall.gif) no-repeat 0 0; float:left;}
-.table_content .btn a.chooseallbtn:hover{ display:block; width:100px; height:25px; background:url(../images/chooseall.gif) no-repeat 0 -26px;}
+.table_content .btn a.chooseallbtn {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background: url(../images/chooseall.gif) no-repeat 0 0;
+    float: left;
+}
+
+.table_content .btn a.chooseallbtn:hover {
+    display: block;
+    width: 100px;
+    height: 25px;
+    background: url(../images/chooseall.gif) no-repeat 0 -26px;
+}
+
 /*表格数据列表*/
-.data{ padding-left:15px;}
-.data p{ padding-top:25px; padding-left:45px;}
-.data table{ margin-top:20px; height:280px;}
-.data table td{ border-bottom:1px dotted #000; text-align:center; line-height:40px; height:40px;font-size:14px;}
-.data table th{ line-height:30px; background:#b0bdcf; height:30px; border:0; border-top:1px #788290 solid; border-bottom:1px #788290 solid;text-align:center;font-size:14px; font-weight:bold;}
+.data {
+    padding-left: 15px;
+}
+
+.data p {
+    padding-top: 25px;
+    padding-left: 45px;
+}
+
+.data table {
+    margin-top: 20px;
+    height: 280px;
+}
+
+.data table td {
+    border-bottom: 1px dotted #000;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.data table th {
+    line-height: 30px;
+    background: #b0bdcf;
+    height: 30px;
+    border: 0;
+    border-top: 1px #788290 solid;
+    border-bottom: 1px #788290 solid;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 /*站内信内容*/
 /*.letter_content{ height:100px;}*/
 /*.content_title{ height:30px;border:1px solid #788290; padding-left:40px; width:955px;  background-color:#b0bdcf;}
@@ -58,10 +240,27 @@
 /*.delebox{ width:100px; text-align:right; float:right;}
 .delebox p{ padding-top:20px; font-size:14px;}*/
 
-
 /*站内信内容表格*/
-table th{ width:20%; height:35px; background-color:#b0bdcf; font-size:14px; text-align:center;}
-table tr td p{ line-height:25px; padding-left:20px;}
-table tr td .s_time{ width:200px; height:20px;}
-table tr td .s_time p{ font-size:14px; color:#1f72bd;}
+table th {
+    width: 20%;
+    height: 35px;
+    background-color: #b0bdcf;
+    font-size: 14px;
+    text-align: center;
+}
+
+table tr td p {
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+table tr td .s_time {
+    width: 200px;
+    height: 20px;
+}
+
+table tr td .s_time p {
+    font-size: 14px;
+    color: #1f72bd;
+}
 
